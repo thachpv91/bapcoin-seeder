@@ -401,7 +401,7 @@ extern "C" void* ThreadStats(void*) {
 }
 // thachpv note: need mod here
 //13.76.177.214/bapcoin.southeastasia.cloudapp.azure.com
-static const string mainnet_seeds[] = {"bapcoin.southeastasia.cloudapp.azure.com", ""};
+static const string mainnet_seeds[] = {"hanhcoin.cloudapp.net", ""};
 
 static const string testnet_seeds[] = {"testnet-seed.litecointools.com", "testnet-seed.ltc.xurious.com", ""};
 static const string *seeds = mainnet_seeds;
