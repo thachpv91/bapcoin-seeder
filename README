@@ -1,7 +1,7 @@
 bapcoin-seeder
 ===============
 
-Bapcoin-seeder is a crawler for the Bapcoin network, which exposes a list
+Bapcoin-seeder is a crawler for the Litecoin network, which exposes a list
 of reliable nodes via a built-in DNS server.
 
 Features:
@@ -34,6 +34,11 @@ dnsseed.example.com.   86400    IN      NS     vps.example.com.
 On the system vps.example.com, you can now run dnsseed:
 
 ./dnsseed -h dnsseed.example.com -n vps.example.com
+
+or
+
+`./dnssed -h bapcoin.southeastasia.cloudapp.azure.com -n 13.76.177.214`
+
 
 If you want the DNS server to report SOA records, please provide an
 e-mail address (with the @ part replaced by .) using -m.
