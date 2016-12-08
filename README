@@ -37,7 +37,7 @@ On the system vps.example.com, you can now run dnsseed:
 
 or
 
-`./dnssed -h bapcoin.southeastasia.cloudapp.azure.com -n 13.76.177.214`
+./dnsseed -h hanhcoin.cloudapp.net -n 52.187.37.154
 
 
 If you want the DNS server to report SOA records, please provide an
